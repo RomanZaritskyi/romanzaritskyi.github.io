@@ -1,0 +1,54 @@
+.founds {
+    background: #e3e3e8;
+    color: #000;
+    padding-top: 135px;
+    padding-bottom: 50px;
+    padding: 135px 80px 50px 100px;
+
+
+    @media (max-width: 767px){
+        padding: 30px 0px 0px 30px ;
+
+    }
+    
+}
+
+.founds__container {
+    max-width: 1080px;
+	margin: 0px auto;
+	padding: 0px 10px; 
+}
+
+.founds__body {
+
+    display: inline-flex;
+    justify-content: space-between;
+
+    @media (max-width: 767px){
+        flex-direction: column;
+    }
+    
+}
+.founds__title{
+    max-width: 43%;
+    font-size: 50px;
+    text-align: top;
+
+     @media (max-width: 767px) {
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: 40px;
+        max-width: 100%;
+     
+    }
+}
+
+.founds__text {
+    max-width: 40%;
+    letter-spacing: 1.2px;
+    @media (max-width: 767px){
+        padding: 0;
+        max-width: 100%;
+
+   }
+}

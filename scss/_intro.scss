@@ -1,0 +1,43 @@
+.intro{
+    padding: 200px 0px 0px 0px;
+    margin-bottom: 45px;
+    z-index: 1;
+
+}
+
+.intro__body{
+}
+
+.intro__title{
+    max-width: 660px;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 1.4px;
+    padding: 0;
+
+    margin-bottom: 50px;
+    @media (max-width: 767px) {
+        font-size: 40px;
+    }
+    @media (max-width: 480px) {
+        font-size: 30px;
+    }
+}
+
+.free-trail-btn {
+    display: inline-block;
+    padding: 17px 65px;
+    text-decoration: none;
+     background-color: #fff;
+     text-transform: uppercase;
+     font-weight: 700;
+     letter-spacing: 1.4px;
+     transition: opacity 0.2s linear;
+     &:hover{
+         opacity: 0.7;
+     }
+}
+
+
+
+
