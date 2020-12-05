@@ -26,6 +26,7 @@
 	justify-content: space-between;
 	height: 35px;
 	align-items: center;
+	max-width: 1080px;
 }
 .header__logo {
 	overflow: hidden;
@@ -115,12 +116,16 @@
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 10px;
+		padding-top: 10px;
+		
 
 		button {
+			width: 200px;
 			margin-bottom: 5px;
 			border: none;
 			text-align: left;
 			font-size: 20px;
+			text-transform: uppercase;
 			padding: 0;
 		}
 	}
